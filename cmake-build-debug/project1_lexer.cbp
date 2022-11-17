@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project1_lexer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Automaton.h">
+				<Option output="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Automaton.h" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/Lab3PassOffCases"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 Automaton.h"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Automaton.h/fast">
+				<Option output="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Automaton.h" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/Lab3PassOffCases"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 Automaton.h/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/ColonAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/ColonAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/ColonDashAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/ColonDashAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/CommaAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/CommaAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/CommentAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/CommentAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/EOFAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/EOFAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/FactsAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/FactsAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/IDAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/IDAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/LeftParenAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/LeftParenAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/Lexer.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/Lexer.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/PeriodAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/PeriodAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/QueriesAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/QueriesAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/QuestionAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/QuestionAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/RightParenAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/RightParenAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/RulesAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/RulesAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/SchemesAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/SchemesAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/StringAutomaton.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/StringAutomaton.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/Token.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/Token.h">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/main.cpp">
+			<Option target="Automaton.h"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

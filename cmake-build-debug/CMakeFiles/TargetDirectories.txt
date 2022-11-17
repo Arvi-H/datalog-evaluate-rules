@@ -1,0 +1,3 @@
+/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/CMakeFiles/project3_datalog_interpreter.dir
+/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
