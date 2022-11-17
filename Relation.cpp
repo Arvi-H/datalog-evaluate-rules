@@ -94,18 +94,10 @@ Relation Relation::rename(std::vector<std::string> newColumnNames) {
     return newRelation;
 }
 
-Relation Relation::join(Relation otherTable) {
-    Relation table1 = *this;
-    Relation table2 = otherTable;
-    
+Header Relation::joinColumns(Relation table1, Relation table2, std::map<int, int> repeatedColumns, std::set<int> uniqueColumns) {
     Header table1_columnNames = table1.getColumnNames();
     Header table2_columnNames = table2.getColumnNames();
-    
     Header combinedColumns;
-    Tuple combinedRows;
-
-    std::map<int, int> repeatedColumns;
-    std::set<int> uniqueColumns;
 
     // Loop through table 2 column names
     for (unsigned int i = 0; i < table2_columnNames.getHeaderSize(); i++) {
@@ -136,10 +128,11 @@ Relation Relation::join(Relation otherTable) {
         combinedColumns.addAttribute(table2_columnNames.findAttribute(i));
     }
 
-    // Create a new table with the combined table1 and table2 column names 
-    Relation output(table1.getName() + " |x| " + table2.getName(), combinedColumns);
+    return combinedColumns;
+}
 
-    // Combine rows for table 1 and table 2
+void Relation::joinRows(Relation table1, Relation table2, Relation combinedTable, std::map<int, int> repeatedColumns, std::set<int> uniqueColumns) {
+    Tuple combinedRows;
 
     // Loop through table 1 rows
     for (Tuple table1_row : table1.getTuples()) {
@@ -165,12 +158,26 @@ Relation Relation::join(Relation otherTable) {
                     }
                     
                     // Add combined rows to our new table
-                    output.addTuple(combinedRows);
+                    combinedTable.addTuple(combinedRows);
                 }
             }
         }
     }
+}
 
-    return output;
+Relation Relation::join(Relation otherTable) {
+    Relation table1 = *this;
+    Relation table2 = otherTable;
+
+    std::map<int, int> repeatedColumns;
+    std::set<int> uniqueColumns;
+
+    // Create a new table with the combined table1 and table2 column names 
+    Relation combinedTable(table1.getName() + " |x| " + table2.getName(), joinColumns(table1, table2, repeatedColumns, uniqueColumns));
+
+    // Add the row contents to our new combined table 
+    joinRows(table1, table2, combinedTable, repeatedColumns, uniqueColumns);
+
+    return combinedTable;
 }
  

@@ -45,12 +45,15 @@ class Interpreter {
         }
 
         void interpretRules() {
+            std::cout << "Rule Evaluation" << std::endl;
             
             
             
         }
 
         void interpretQueries() {
+            std::cout << "Query Evaluation" << std::endl;
+
             for (Predicate query : program.getQueries()) {
                 std::cout << query.toString() << "?";
                 Relation result = evaluatePredicate(query);
@@ -78,7 +81,7 @@ class Interpreter {
                 if (parameter.isConstant()) {
                     output = output.select(col, parameter.getID());    // select type 1 (int, value)
                 } else {
-                    // seenBefore()
+                    // if not seen before
                     if (seen.find(val) != seen.end()) {
                         output = output.select(col, seen.at(val));   // select type 2 (int, int)
                     // mark it as seen
@@ -96,7 +99,7 @@ class Interpreter {
 
             // rename
             output = output.rename(uniqueValues);
-
+    
             return output;
         }
 
