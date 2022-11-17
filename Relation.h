@@ -31,8 +31,8 @@ class Relation {
         Relation rename(std::vector<std::string> newColumnNames);
         
         Relation join(Relation otherTable);
-        Header joinColumns(Relation table1, Relation table2, std::map<int, int> repeatedColumns, std::set<int> uniqueColumns);
-        void joinRows(Relation table1, Relation table2, Relation combinedTable, std::map<int, int> repeatedColumns, std::set<int> uniqueColumns);
+        Header joinColumns(Relation &table1, Relation &table2, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns);
+        void joinRows(Relation &table1, Relation &table2, Relation &combinedTable, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns);
 
     private:
         std::string name;

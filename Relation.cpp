@@ -94,7 +94,7 @@ Relation Relation::rename(std::vector<std::string> newColumnNames) {
     return newRelation;
 }
 
-Header Relation::joinColumns(Relation table1, Relation table2, std::map<int, int> repeatedColumns, std::set<int> uniqueColumns) {
+Header Relation::joinColumns(Relation &table1, Relation &table2, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns) {
     Header table1_columnNames = table1.getColumnNames();
     Header table2_columnNames = table2.getColumnNames();
     Header combinedColumns;
@@ -131,7 +131,7 @@ Header Relation::joinColumns(Relation table1, Relation table2, std::map<int, int
     return combinedColumns;
 }
 
-void Relation::joinRows(Relation table1, Relation table2, Relation combinedTable, std::map<int, int> repeatedColumns, std::set<int> uniqueColumns) {
+void Relation::joinRows(Relation &table1, Relation &table2, Relation &combinedTable, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns) {
     Tuple combinedRows;
 
     // Loop through table 1 rows
