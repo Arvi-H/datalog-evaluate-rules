@@ -17,8 +17,8 @@ int Relation::getSetSize() {
     return tuples.size();
 }
 
-void Relation::addTuple(Tuple t) {
-    Relation::tuples.insert(t);
+bool Relation::addTuple(Tuple t) {
+    return Relation::tuples.insert(t).second;
 }
 
 void Relation::setTuples(std::set<Tuple> tuples) {
@@ -165,7 +165,7 @@ void Relation::joinRows(Relation &table1, Relation &table2, Relation &combinedTa
     }
 }
 
-Relation Relation::join(Relation otherTable) {
+Relation Relation::join(Relation &otherTable) {
     Relation table1 = *this;
     Relation table2 = otherTable;
 
@@ -180,4 +180,3 @@ Relation Relation::join(Relation otherTable) {
 
     return combinedTable;
 }
- 

@@ -1,0 +1,47 @@
+Rule Evaluation
+before(C1,C2) :- cp(C2,C1).
+  cc1='CS100', cc2='CS101'
+  cc1='CS100', cc2='EE200'
+  cc1='CS101', cc2='CS120'
+  cc1='CS101', cc2='CS205'
+  cc1='CS120', cc2='CS121'
+  cc1='CS121', cc2='CS206'
+  cc1='CS205', cc2='CS206'
+  cc1='EE005', cc2='EE200'
+before(C1,C2) :- cp(C3,C1),before(C3,C2).
+mwfCourses(C,R) :- cdh(C,'M',H),cr(C,R).
+  c='CS101', r='CS101'
+  c='CS120', r='CS120'
+  c='CS121', r='CS121'
+  c='CS205', r='CS205'
+  c='CS206', r='CS206'
+  c='EE200', r='EE200'
+mwfCourses(C,R) :- cdh(C,'W',H),cr(C,R).
+mwfCourses(C,R) :- cdh(C,'F',H),cr(C,R).
+Schedule(N,C,R,D,H) :- snap(S,N,A,P),csg(C,S,G),cr(C,R),cdh(C,D,H).
+  n='CS101', c='CS101', r='CS101', d='CS101', h='CS101'
+  n='CS120', c='CS120', r='CS120', d='CS120', h='CS120'
+  n='CS121', c='CS121', r='CS121', d='CS121', h='CS121'
+  n='CS205', c='CS205', r='CS205', d='CS205', h='CS205'
+  n='CS206', c='CS206', r='CS206', d='CS206', h='CS206'
+  n='EE200', c='EE200', r='EE200', d='EE200', h='EE200'
+Grades(N,C,G) :- snap(S,N,A,P),csg(C,S,G).
+  n='CS101', c='CS101', g='CS101'
+  n='CS120', c='CS120', g='CS120'
+  n='CS121', c='CS121', g='CS121'
+  n='CS205', c='CS205', g='CS205'
+  n='CS206', c='CS206', g='CS206'
+  n='EE200', c='EE200', g='EE200'
+Roll(C,R,N,S,G) :- snap(S,N,A,P),csg(C,S,G),cr(C,R).
+  c='CS101', r='CS101', n='CS101', s='CS101', g='CS101'
+  c='CS120', r='CS120', n='CS120', s='CS120', g='CS120'
+  c='CS121', r='CS121', n='CS121', s='CS121', g='CS121'
+  c='CS205', r='CS205', n='CS205', s='CS205', g='CS205'
+  c='CS206', r='CS206', n='CS206', s='CS206', g='CS206'
+  c='EE200', r='EE200', n='EE200', s='EE200', g='EE200'
+before(C1,C2) :- cp(C2,C1).
+before(C1,C2) :- cp(C3,C1),before(C3,C2).
+mwfCourses(C,R) :- cdh(C,'M',H),cr(C,R).
+mwfCourses(C,R) :- cdh(C,'W',H),cr(C,R).
+mwfCourses(C,R) :- cdh(C,'F',H),cr(C,R).
+Schedule(N,C,R,D,H) :- snap(S,N,A,P),csg(C,S,G),cr(C,R),cdh(C,D,H).

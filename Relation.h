@@ -20,7 +20,7 @@ class Relation {
         int getSetSize();
 
         // Setter Functions
-        void addTuple(Tuple t);
+        bool addTuple(Tuple t);
         void setTuples(std::set<Tuple> tuples);
         std::string toString();
 
@@ -30,7 +30,7 @@ class Relation {
         Relation project(std::vector<int> columnsToProject);
         Relation rename(std::vector<std::string> newColumnNames);
         
-        Relation join(Relation otherTable);
+        Relation join(Relation &otherTable);
         Header joinColumns(Relation &table1, Relation &table2, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns);
         void joinRows(Relation &table1, Relation &table2, Relation &combinedTable, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns);
 

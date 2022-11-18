@@ -28,6 +28,20 @@ public:
     int getHeaderSize() {
         return columnNames.size();
     }
+
+    std::vector<std::string> getAttributes() {
+        return columnNames;
+    }
+
+    unsigned int findColumn(std::string column) const {
+        for (unsigned int i = 0; i < columnNames.size(); i++) {
+            if (columnNames.at(i) == column) {
+                return i;
+            }
+        }
+
+        return 0;
+    }
     
 private:
     std::vector<std::string> columnNames;

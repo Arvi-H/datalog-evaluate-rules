@@ -13,7 +13,6 @@ Facts:
 
 Rules:
    r(E,F):-f(E,F).
-   r(X,Y):-g(X,R),f(Y,S).
    g(C,D):-f(C,X),r(X,D).
 
 Queries:

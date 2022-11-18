@@ -28,8 +28,8 @@ class Database {
             return newRelation;
         }
 
-        void addTuple(std::string key, Tuple tuple) {
-            database.at(key).addTuple(tuple);
+        bool addTuple(std::string key, Tuple tuple) {
+            return database.at(key).addTuple(tuple);
         }
 };
 
