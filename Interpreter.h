@@ -47,19 +47,20 @@ public:
     void interpretRules() {
         std::cout << "Rule Evaluation" << std::endl;
 
-        /** Each predicate should produce a single relation. If there are n predicates on the right-hand side of a rule, there should be n relations. These relations will be joined in step 2. */ 
-        std::vector<Relation> relationsToJoin;
-        
+
         unsigned int repeatedAlgCount = 0;
         bool repeatAlg = true;
 
         while (repeatAlg) {
-            
             // Don't repeat again unless we have to
             repeatAlg = false;
 
             // Evaluate every rule
-            for (Rule rule : program.getRules()) { 
+            for (Rule rule : program.getRules()) {
+
+                /** Each predicate should produce a single relation. If there are n predicates on the right-hand side of a rule, there should be n relations. These relations will be joined in step 2. */
+                std::vector<Relation> relationsToJoin;
+
                 // STEP 1 : Evaluate each rule using the select, project, and rename relational alegbra operations
                 for (Predicate p : rule.getPredicates()) {
                     relationsToJoin.push_back(evaluatePredicate(p));
@@ -69,7 +70,7 @@ public:
                 Relation combinedRelation = relationsToJoin.at(0);
 
                 for (int i = 1; i < relationsToJoin.size(); i++) {
-                    combinedRelation = combinedRelation.join(combinedRelation);
+                    combinedRelation = combinedRelation.join(relationsToJoin.at(i));
                 } 
 
                 // STEP 3 : Project the columns that appear in the head predicate 
@@ -100,12 +101,13 @@ public:
                 Relation dbRelation = database.getRelation(rule.getID().getID());
 
                 for (Tuple t : combinedRelation.getTuples()) {
-                    if (database.addTuple(rule.getID().getID(), t)) {
+                    if  (database.addTuple(rule.getID().getID(), t)) {
                         std::cout << " " << t.toString(dbRelation.getColumnNames()) << std::endl;
                         repeatAlg = true;
-                    }
+                    } 
                 }
             }
+
             repeatedAlgCount++;
         }
 

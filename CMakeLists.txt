@@ -1,40 +1,11 @@
 cmake_minimum_required(VERSION 3.23)
-project(project3_datalog_interpreter)
+project(datalog-eval-rule-project)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(project3_datalog_interpreter
-        cmake-build-debug/Testing/Temporary/LastTest.log
-        cmake-build-debug/cmake_install.cmake
-        cmake-build-debug/CMakeCache.txt
-        cmake-build-debug/Makefile
-        cmake-build-debug/Project.cbp
-        cmake-build-debug/project1_lexer.cbp
-        lab3.dSYM/Contents/Resources/DWARF/lab3
-        lab3.dSYM/Contents/Info.plist
-        Lab3PassOffCases/3-100/answer5.txt
-        Lab3PassOffCases/3-100/answer6.txt
-        Lab3PassOffCases/3-100/answer9.txt
-        Lab3PassOffCases/3-100/input5.txt
-        Lab3PassOffCases/3-100/input6.txt
-        Lab3PassOffCases/3-100/input9.txt
-        Lab3PassOffCases/3-80/answer0.txt
-        Lab3PassOffCases/3-80/answer1.txt
-        Lab3PassOffCases/3-80/answer2.txt
-        Lab3PassOffCases/3-80/answer3.txt
-        Lab3PassOffCases/3-80/answer4.txt
-        Lab3PassOffCases/3-80/answer7.txt
-        Lab3PassOffCases/3-80/answer8.txt
-        Lab3PassOffCases/3-80/input0.txt
-        Lab3PassOffCases/3-80/input1.txt
-        Lab3PassOffCases/3-80/input2.txt
-        Lab3PassOffCases/3-80/input3.txt
-        Lab3PassOffCases/3-80/input4.txt
-        Lab3PassOffCases/3-80/input7.txt
-        Lab3PassOffCases/3-80/input8.txt
-        a.out
+add_executable(datalog-eval-rule-project
         AddAutomaton.cpp
         AddAutomaton.h
         Automaton.h
@@ -62,7 +33,6 @@ add_executable(project3_datalog_interpreter
         Lexer.cpp
         Lexer.h
         main.cpp
-        makefile
         MultiplyAutomaton.cpp
         MultiplyAutomaton.h
         Parameter.cpp

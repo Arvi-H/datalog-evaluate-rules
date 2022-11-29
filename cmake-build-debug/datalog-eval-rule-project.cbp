@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="datalog-eval-rule-project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datalog-eval-rule-project">
+				<Option output="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/datalog-eval-rule-project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 datalog-eval-rule-project"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datalog-eval-rule-project/fast">
+				<Option output="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/datalog-eval-rule-project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 datalog-eval-rule-project/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/AddAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/AddAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Automaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/ColonAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/ColonAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/ColonDashAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/ColonDashAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/CommaAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/CommaAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/CommentAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/CommentAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Database.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/DatalogProgram.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/DatalogProgram.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/EOFAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/EOFAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/FactsAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/FactsAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Header.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/IDAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/IDAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Interpreter.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/LeftParenAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/LeftParenAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Lexer.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Lexer.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/MultiplyAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/MultiplyAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Parameter.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Parameter.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Parser.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Parser.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/PeriodAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/PeriodAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Predicate.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Predicate.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/QueriesAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/QueriesAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/QuestionAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/QuestionAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Relation.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Relation.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/RightParenAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/RightParenAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Rule.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Rule.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/RulesAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/RulesAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/SchemesAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/SchemesAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/StringAutomaton.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/StringAutomaton.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Token.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Token.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/Tuple.h">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/main.cpp">
+			<Option target="datalog-eval-rule-project"/>
+		</Unit>
+		<Unit filename="/Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

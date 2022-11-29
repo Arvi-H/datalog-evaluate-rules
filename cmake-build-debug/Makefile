@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter
+CMAKE_SOURCE_DIR = /Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/CMakeFiles /Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/CMakeFiles /Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arvihaxhillari/Documents/Code/project3-datalog-interpreter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arvihaxhillari/Documents/Code/datalog-eval-rule-project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,6 +116,643 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named datalog-eval-rule-project
+
+# Build rule for target.
+datalog-eval-rule-project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 datalog-eval-rule-project
+.PHONY : datalog-eval-rule-project
+
+# fast build rule for target.
+datalog-eval-rule-project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/build
+.PHONY : datalog-eval-rule-project/fast
+
+AddAutomaton.o: AddAutomaton.cpp.o
+.PHONY : AddAutomaton.o
+
+# target to build an object file
+AddAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/AddAutomaton.cpp.o
+.PHONY : AddAutomaton.cpp.o
+
+AddAutomaton.i: AddAutomaton.cpp.i
+.PHONY : AddAutomaton.i
+
+# target to preprocess a source file
+AddAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/AddAutomaton.cpp.i
+.PHONY : AddAutomaton.cpp.i
+
+AddAutomaton.s: AddAutomaton.cpp.s
+.PHONY : AddAutomaton.s
+
+# target to generate assembly for a file
+AddAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/AddAutomaton.cpp.s
+.PHONY : AddAutomaton.cpp.s
+
+ColonAutomaton.o: ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.o
+
+# target to build an object file
+ColonAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.cpp.o
+
+ColonAutomaton.i: ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.i
+
+# target to preprocess a source file
+ColonAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.cpp.i
+
+ColonAutomaton.s: ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.s
+
+# target to generate assembly for a file
+ColonAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.cpp.s
+
+ColonDashAutomaton.o: ColonDashAutomaton.cpp.o
+.PHONY : ColonDashAutomaton.o
+
+# target to build an object file
+ColonDashAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/ColonDashAutomaton.cpp.o
+.PHONY : ColonDashAutomaton.cpp.o
+
+ColonDashAutomaton.i: ColonDashAutomaton.cpp.i
+.PHONY : ColonDashAutomaton.i
+
+# target to preprocess a source file
+ColonDashAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/ColonDashAutomaton.cpp.i
+.PHONY : ColonDashAutomaton.cpp.i
+
+ColonDashAutomaton.s: ColonDashAutomaton.cpp.s
+.PHONY : ColonDashAutomaton.s
+
+# target to generate assembly for a file
+ColonDashAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/ColonDashAutomaton.cpp.s
+.PHONY : ColonDashAutomaton.cpp.s
+
+CommaAutomaton.o: CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.o
+
+# target to build an object file
+CommaAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.cpp.o
+
+CommaAutomaton.i: CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.i
+
+# target to preprocess a source file
+CommaAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.cpp.i
+
+CommaAutomaton.s: CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.s
+
+# target to generate assembly for a file
+CommaAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.cpp.s
+
+CommentAutomaton.o: CommentAutomaton.cpp.o
+.PHONY : CommentAutomaton.o
+
+# target to build an object file
+CommentAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/CommentAutomaton.cpp.o
+.PHONY : CommentAutomaton.cpp.o
+
+CommentAutomaton.i: CommentAutomaton.cpp.i
+.PHONY : CommentAutomaton.i
+
+# target to preprocess a source file
+CommentAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/CommentAutomaton.cpp.i
+.PHONY : CommentAutomaton.cpp.i
+
+CommentAutomaton.s: CommentAutomaton.cpp.s
+.PHONY : CommentAutomaton.s
+
+# target to generate assembly for a file
+CommentAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/CommentAutomaton.cpp.s
+.PHONY : CommentAutomaton.cpp.s
+
+DatalogProgram.o: DatalogProgram.cpp.o
+.PHONY : DatalogProgram.o
+
+# target to build an object file
+DatalogProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
+
+DatalogProgram.i: DatalogProgram.cpp.i
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
+EOFAutomaton.o: EOFAutomaton.cpp.o
+.PHONY : EOFAutomaton.o
+
+# target to build an object file
+EOFAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/EOFAutomaton.cpp.o
+.PHONY : EOFAutomaton.cpp.o
+
+EOFAutomaton.i: EOFAutomaton.cpp.i
+.PHONY : EOFAutomaton.i
+
+# target to preprocess a source file
+EOFAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/EOFAutomaton.cpp.i
+.PHONY : EOFAutomaton.cpp.i
+
+EOFAutomaton.s: EOFAutomaton.cpp.s
+.PHONY : EOFAutomaton.s
+
+# target to generate assembly for a file
+EOFAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/EOFAutomaton.cpp.s
+.PHONY : EOFAutomaton.cpp.s
+
+FactsAutomaton.o: FactsAutomaton.cpp.o
+.PHONY : FactsAutomaton.o
+
+# target to build an object file
+FactsAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/FactsAutomaton.cpp.o
+.PHONY : FactsAutomaton.cpp.o
+
+FactsAutomaton.i: FactsAutomaton.cpp.i
+.PHONY : FactsAutomaton.i
+
+# target to preprocess a source file
+FactsAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/FactsAutomaton.cpp.i
+.PHONY : FactsAutomaton.cpp.i
+
+FactsAutomaton.s: FactsAutomaton.cpp.s
+.PHONY : FactsAutomaton.s
+
+# target to generate assembly for a file
+FactsAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/FactsAutomaton.cpp.s
+.PHONY : FactsAutomaton.cpp.s
+
+IDAutomaton.o: IDAutomaton.cpp.o
+.PHONY : IDAutomaton.o
+
+# target to build an object file
+IDAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/IDAutomaton.cpp.o
+.PHONY : IDAutomaton.cpp.o
+
+IDAutomaton.i: IDAutomaton.cpp.i
+.PHONY : IDAutomaton.i
+
+# target to preprocess a source file
+IDAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/IDAutomaton.cpp.i
+.PHONY : IDAutomaton.cpp.i
+
+IDAutomaton.s: IDAutomaton.cpp.s
+.PHONY : IDAutomaton.s
+
+# target to generate assembly for a file
+IDAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/IDAutomaton.cpp.s
+.PHONY : IDAutomaton.cpp.s
+
+LeftParenAutomaton.o: LeftParenAutomaton.cpp.o
+.PHONY : LeftParenAutomaton.o
+
+# target to build an object file
+LeftParenAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/LeftParenAutomaton.cpp.o
+.PHONY : LeftParenAutomaton.cpp.o
+
+LeftParenAutomaton.i: LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.i
+
+# target to preprocess a source file
+LeftParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.cpp.i
+
+LeftParenAutomaton.s: LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.s
+
+# target to generate assembly for a file
+LeftParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.cpp.s
+
+Lexer.o: Lexer.cpp.o
+.PHONY : Lexer.o
+
+# target to build an object file
+Lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Lexer.cpp.o
+.PHONY : Lexer.cpp.o
+
+Lexer.i: Lexer.cpp.i
+.PHONY : Lexer.i
+
+# target to preprocess a source file
+Lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Lexer.cpp.i
+.PHONY : Lexer.cpp.i
+
+Lexer.s: Lexer.cpp.s
+.PHONY : Lexer.s
+
+# target to generate assembly for a file
+Lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Lexer.cpp.s
+.PHONY : Lexer.cpp.s
+
+MultiplyAutomaton.o: MultiplyAutomaton.cpp.o
+.PHONY : MultiplyAutomaton.o
+
+# target to build an object file
+MultiplyAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/MultiplyAutomaton.cpp.o
+.PHONY : MultiplyAutomaton.cpp.o
+
+MultiplyAutomaton.i: MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.i
+
+# target to preprocess a source file
+MultiplyAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.cpp.i
+
+MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.s
+
+# target to generate assembly for a file
+MultiplyAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.cpp.s
+
+Parameter.o: Parameter.cpp.o
+.PHONY : Parameter.o
+
+# target to build an object file
+Parameter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Parameter.cpp.o
+.PHONY : Parameter.cpp.o
+
+Parameter.i: Parameter.cpp.i
+.PHONY : Parameter.i
+
+# target to preprocess a source file
+Parameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Parameter.cpp.i
+.PHONY : Parameter.cpp.i
+
+Parameter.s: Parameter.cpp.s
+.PHONY : Parameter.s
+
+# target to generate assembly for a file
+Parameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Parameter.cpp.s
+.PHONY : Parameter.cpp.s
+
+Parser.o: Parser.cpp.o
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
+PeriodAutomaton.o: PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.o
+
+# target to build an object file
+PeriodAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.cpp.o
+
+PeriodAutomaton.i: PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.i
+
+# target to preprocess a source file
+PeriodAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.cpp.i
+
+PeriodAutomaton.s: PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.s
+
+# target to generate assembly for a file
+PeriodAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.cpp.s
+
+Predicate.o: Predicate.cpp.o
+.PHONY : Predicate.o
+
+# target to build an object file
+Predicate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Predicate.cpp.o
+.PHONY : Predicate.cpp.o
+
+Predicate.i: Predicate.cpp.i
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
+
+QueriesAutomaton.o: QueriesAutomaton.cpp.o
+.PHONY : QueriesAutomaton.o
+
+# target to build an object file
+QueriesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/QueriesAutomaton.cpp.o
+.PHONY : QueriesAutomaton.cpp.o
+
+QueriesAutomaton.i: QueriesAutomaton.cpp.i
+.PHONY : QueriesAutomaton.i
+
+# target to preprocess a source file
+QueriesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/QueriesAutomaton.cpp.i
+.PHONY : QueriesAutomaton.cpp.i
+
+QueriesAutomaton.s: QueriesAutomaton.cpp.s
+.PHONY : QueriesAutomaton.s
+
+# target to generate assembly for a file
+QueriesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/QueriesAutomaton.cpp.s
+.PHONY : QueriesAutomaton.cpp.s
+
+QuestionAutomaton.o: QuestionAutomaton.cpp.o
+.PHONY : QuestionAutomaton.o
+
+# target to build an object file
+QuestionAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/QuestionAutomaton.cpp.o
+.PHONY : QuestionAutomaton.cpp.o
+
+QuestionAutomaton.i: QuestionAutomaton.cpp.i
+.PHONY : QuestionAutomaton.i
+
+# target to preprocess a source file
+QuestionAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/QuestionAutomaton.cpp.i
+.PHONY : QuestionAutomaton.cpp.i
+
+QuestionAutomaton.s: QuestionAutomaton.cpp.s
+.PHONY : QuestionAutomaton.s
+
+# target to generate assembly for a file
+QuestionAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/QuestionAutomaton.cpp.s
+.PHONY : QuestionAutomaton.cpp.s
+
+Relation.o: Relation.cpp.o
+.PHONY : Relation.o
+
+# target to build an object file
+Relation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Relation.cpp.o
+.PHONY : Relation.cpp.o
+
+Relation.i: Relation.cpp.i
+.PHONY : Relation.i
+
+# target to preprocess a source file
+Relation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Relation.cpp.i
+.PHONY : Relation.cpp.i
+
+Relation.s: Relation.cpp.s
+.PHONY : Relation.s
+
+# target to generate assembly for a file
+Relation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Relation.cpp.s
+.PHONY : Relation.cpp.s
+
+RightParenAutomaton.o: RightParenAutomaton.cpp.o
+.PHONY : RightParenAutomaton.o
+
+# target to build an object file
+RightParenAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/RightParenAutomaton.cpp.o
+.PHONY : RightParenAutomaton.cpp.o
+
+RightParenAutomaton.i: RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.i
+
+# target to preprocess a source file
+RightParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.cpp.i
+
+RightParenAutomaton.s: RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.s
+
+# target to generate assembly for a file
+RightParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.cpp.s
+
+Rule.o: Rule.cpp.o
+.PHONY : Rule.o
+
+# target to build an object file
+Rule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Rule.cpp.o
+.PHONY : Rule.cpp.o
+
+Rule.i: Rule.cpp.i
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
+
+RulesAutomaton.o: RulesAutomaton.cpp.o
+.PHONY : RulesAutomaton.o
+
+# target to build an object file
+RulesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/RulesAutomaton.cpp.o
+.PHONY : RulesAutomaton.cpp.o
+
+RulesAutomaton.i: RulesAutomaton.cpp.i
+.PHONY : RulesAutomaton.i
+
+# target to preprocess a source file
+RulesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/RulesAutomaton.cpp.i
+.PHONY : RulesAutomaton.cpp.i
+
+RulesAutomaton.s: RulesAutomaton.cpp.s
+.PHONY : RulesAutomaton.s
+
+# target to generate assembly for a file
+RulesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/RulesAutomaton.cpp.s
+.PHONY : RulesAutomaton.cpp.s
+
+SchemesAutomaton.o: SchemesAutomaton.cpp.o
+.PHONY : SchemesAutomaton.o
+
+# target to build an object file
+SchemesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/SchemesAutomaton.cpp.o
+.PHONY : SchemesAutomaton.cpp.o
+
+SchemesAutomaton.i: SchemesAutomaton.cpp.i
+.PHONY : SchemesAutomaton.i
+
+# target to preprocess a source file
+SchemesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/SchemesAutomaton.cpp.i
+.PHONY : SchemesAutomaton.cpp.i
+
+SchemesAutomaton.s: SchemesAutomaton.cpp.s
+.PHONY : SchemesAutomaton.s
+
+# target to generate assembly for a file
+SchemesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/SchemesAutomaton.cpp.s
+.PHONY : SchemesAutomaton.cpp.s
+
+StringAutomaton.o: StringAutomaton.cpp.o
+.PHONY : StringAutomaton.o
+
+# target to build an object file
+StringAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/StringAutomaton.cpp.o
+.PHONY : StringAutomaton.cpp.o
+
+StringAutomaton.i: StringAutomaton.cpp.i
+.PHONY : StringAutomaton.i
+
+# target to preprocess a source file
+StringAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/StringAutomaton.cpp.i
+.PHONY : StringAutomaton.cpp.i
+
+StringAutomaton.s: StringAutomaton.cpp.s
+.PHONY : StringAutomaton.s
+
+# target to generate assembly for a file
+StringAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/StringAutomaton.cpp.s
+.PHONY : StringAutomaton.cpp.s
+
+Token.o: Token.cpp.o
+.PHONY : Token.o
+
+# target to build an object file
+Token.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Token.cpp.o
+.PHONY : Token.cpp.o
+
+Token.i: Token.cpp.i
+.PHONY : Token.i
+
+# target to preprocess a source file
+Token.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Token.cpp.i
+.PHONY : Token.cpp.i
+
+Token.s: Token.cpp.s
+.PHONY : Token.s
+
+# target to generate assembly for a file
+Token.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/Token.cpp.s
+.PHONY : Token.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalog-eval-rule-project.dir/build.make CMakeFiles/datalog-eval-rule-project.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +761,85 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... datalog-eval-rule-project"
+	@echo "... AddAutomaton.o"
+	@echo "... AddAutomaton.i"
+	@echo "... AddAutomaton.s"
+	@echo "... ColonAutomaton.o"
+	@echo "... ColonAutomaton.i"
+	@echo "... ColonAutomaton.s"
+	@echo "... ColonDashAutomaton.o"
+	@echo "... ColonDashAutomaton.i"
+	@echo "... ColonDashAutomaton.s"
+	@echo "... CommaAutomaton.o"
+	@echo "... CommaAutomaton.i"
+	@echo "... CommaAutomaton.s"
+	@echo "... CommentAutomaton.o"
+	@echo "... CommentAutomaton.i"
+	@echo "... CommentAutomaton.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
+	@echo "... EOFAutomaton.o"
+	@echo "... EOFAutomaton.i"
+	@echo "... EOFAutomaton.s"
+	@echo "... FactsAutomaton.o"
+	@echo "... FactsAutomaton.i"
+	@echo "... FactsAutomaton.s"
+	@echo "... IDAutomaton.o"
+	@echo "... IDAutomaton.i"
+	@echo "... IDAutomaton.s"
+	@echo "... LeftParenAutomaton.o"
+	@echo "... LeftParenAutomaton.i"
+	@echo "... LeftParenAutomaton.s"
+	@echo "... Lexer.o"
+	@echo "... Lexer.i"
+	@echo "... Lexer.s"
+	@echo "... MultiplyAutomaton.o"
+	@echo "... MultiplyAutomaton.i"
+	@echo "... MultiplyAutomaton.s"
+	@echo "... Parameter.o"
+	@echo "... Parameter.i"
+	@echo "... Parameter.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... PeriodAutomaton.o"
+	@echo "... PeriodAutomaton.i"
+	@echo "... PeriodAutomaton.s"
+	@echo "... Predicate.o"
+	@echo "... Predicate.i"
+	@echo "... Predicate.s"
+	@echo "... QueriesAutomaton.o"
+	@echo "... QueriesAutomaton.i"
+	@echo "... QueriesAutomaton.s"
+	@echo "... QuestionAutomaton.o"
+	@echo "... QuestionAutomaton.i"
+	@echo "... QuestionAutomaton.s"
+	@echo "... Relation.o"
+	@echo "... Relation.i"
+	@echo "... Relation.s"
+	@echo "... RightParenAutomaton.o"
+	@echo "... RightParenAutomaton.i"
+	@echo "... RightParenAutomaton.s"
+	@echo "... Rule.o"
+	@echo "... Rule.i"
+	@echo "... Rule.s"
+	@echo "... RulesAutomaton.o"
+	@echo "... RulesAutomaton.i"
+	@echo "... RulesAutomaton.s"
+	@echo "... SchemesAutomaton.o"
+	@echo "... SchemesAutomaton.i"
+	@echo "... SchemesAutomaton.s"
+	@echo "... StringAutomaton.o"
+	@echo "... StringAutomaton.i"
+	@echo "... StringAutomaton.s"
+	@echo "... Token.o"
+	@echo "... Token.i"
+	@echo "... Token.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

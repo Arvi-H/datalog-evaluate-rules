@@ -19,7 +19,7 @@ public:
         int size = rowValues.size();
 
         if (index > size) {
-            throw "Ouf of bounds";
+            throw "Out of bounds";
         }
         return rowValues.at(index);
     }

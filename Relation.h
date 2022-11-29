@@ -33,6 +33,7 @@ class Relation {
         Relation join(Relation &otherTable);
         Header joinColumns(Relation &table1, Relation &table2, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns);
         void joinRows(Relation &table1, Relation &table2, Relation &combinedTable, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns);
+        bool isJoinable(Tuple &table1_row, Tuple &table2_row, std::map<int, int> &repeatedColumns);
 
     private:
         std::string name;

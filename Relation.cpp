@@ -94,6 +94,20 @@ Relation Relation::rename(std::vector<std::string> newColumnNames) {
     return newRelation;
 }
 
+bool Relation::isJoinable(Tuple &table1_row, Tuple &table2_row, std::map<int, int> &repeatedColumns) {
+    // Search through the repeated columns key and values
+    for (const auto &pair : repeatedColumns) {       
+        // Row contents of both tables at that column
+        std::string rowAtKey = table1_row.findValue(pair.first);
+        std::string rowAtValue = table2_row.findValue(pair.second);
+        
+        // If the row contents are the same
+        if (rowAtKey != rowAtValue) { return false; }
+    }   
+    // Default to true
+    return true;
+}
+
 Header Relation::joinColumns(Relation &table1, Relation &table2, std::map<int, int> &repeatedColumns, std::set<int> &uniqueColumns) {
     Header table1_columnNames = table1.getColumnNames();
     Header table2_columnNames = table2.getColumnNames();
@@ -139,28 +153,20 @@ void Relation::joinRows(Relation &table1, Relation &table2, Relation &combinedTa
 
         // Loop through table 2 rows
         for (Tuple table2_row : table2.getTuples()) {
+ 
+            // If the row contents are the same
+            if (isJoinable(table1_row, table2_row, repeatedColumns)) {
+                // Set combined row names to the table 1 row names
+                combinedRows = table1_row;
 
-            // Search through the repeated columns key and values
-            for (const auto &pair : repeatedColumns) {
-                
-                // Row contents of both tables at that column
-                std::string rowAtKey = table1_row.findValue(pair.first);
-                std::string rowAtValue = table2_row.findValue(pair.first);
-                
-                // If the row contents are the same
-                if (rowAtKey == rowAtValue) {
-                    // Set combined row names to the table 1 row names 
-                    combinedRows = table1_row;
-
-                    // Add the unique rows found in table 2 to the combined row names
-                    for (int i : uniqueColumns) {
-                        combinedRows.addValue(table2_row.findValue(i));
-                    }
-                    
-                    // Add combined rows to our new table
-                    combinedTable.addTuple(combinedRows);
+                // Add the unique rows found in table 2 to the combined row names
+                for (int i : uniqueColumns) {
+                    combinedRows.addValue(table2_row.findValue(i));
                 }
-            }
+                
+                // Add combined rows to our new table
+                combinedTable.addTuple(combinedRows);
+            }   
         }
     }
 }
